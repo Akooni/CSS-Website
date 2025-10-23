@@ -10,7 +10,7 @@ function App() {
   return (
       <main style= {{ fontFamily: "system-ui", padding: 24}}>
         <h1>Hello, React on windows!!</h1>
-        <p>Clicks: {count}</p>
+        <p>Clicks and kicks: {count}</p>
         <button onClick={() => setCount((count) => count + 1)}>click me </button>
       </main>
   );
